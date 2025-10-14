@@ -19,42 +19,68 @@
                 </ul>
             </nav>
         </header>
+
         <main>
             <!-- This sections is for the Menu -->
             <section id="menu">
                 <h2>Menu</h2>
+               <!-- The Escobio Burguer -->
                 <article>
-                    <!-- The Escobio Burguer -->
                     <figure>
                         <img src="images/Escobio Burguer.png" alt="The Escobio Burguer" width="600">
                         <figcaption>
                             <h3><b>The Escobio Burguer: <i>$5.99</i></b></h3>
-                            <li>Juicy 1/3 lb beef, cheddar, grilled onions, brioche bun.</li>
+                            <p><i>Juicy 1/3 lb beef, cheddar, grilled onions, brioche bun.</i></p>
                         </figcaption>
                     </figure>
                     <br><br><br>
+                </article>
 
-                    <!-- The Escobio Citrus Grilled Chicken -->
-                     <figure>
+                <!-- The Escobio Citrus Grilled Chicken -->
+                <article>
+                    <figure>
                         <img src="images/Citrus Grilled Chicken.png" alt="Citrus Grilled Chicken" width="600">
                         <figcaption>
                             <h3><b>Citrus Grilled Chicken: <i>$10.99</i></b></h3>
-                            <li>Marinated chicken breast, herbs, lemon glaze.</li>
+                            <p><i>Marinated chicken breast, herbs, lemon glaze.</i></p>
                         </figcaption>
                      </figure>
                      <br><br><br>
+                </article>
 
-                     <!-- The Escobio Veggie Fire Bowl -->
-                      <figure>
+                <!-- The Escobio Veggie Fire Bowl -->
+                <article>
+                    <figure>
                         <img src="images/Veggie Fire Bowl.png" alt="Veggie Fire Bowl" width="600">
                         <figcaption>
                             <h3><b>Veggie Fire Bowl: <i>$8.99</i></b></h3>
-                            <li>Charred veggies, cilantro rice, spicy crema.</li>
+                            <p><i>Charred veggies, cilantro rice, spicy crema.</i></p>
                         </figcaption>
                       </figure>
                       <br><br><br>
                 </article>
+            </section>
 
+            <!-- Section for "Place Your Order" -->
+            <section id="order-form">
+                <h2>Place Your Order</h2>
+                <form id="order" action="#" method="post">
+                    <!-- Escobio Burguer -->
+                    <label for="qty-burguer">Escobio Burguer: </label>
+                    <input type="number" id="qty-burguer" name="qty-burguer" min="0" max="99" style="width: 40px">
+                    <br><br>
+
+                    <!-- Escobio Citrus Grilled Chicken -->
+                    <label for="qty-chicken">Citrus Grileld Chicken: </label>
+                    <input type="number" id="qty-chicken" name="qty-chicken" min="0" max="99" style="width: 40px">
+                    <br><br>
+
+                    <!-- Veggie Fire Bowl -->
+                    <label for="qty-veggie">Veggie Fire Bowl: </label>
+                    <input type="number" id="qty-veggie" name="qty-veggie" min="0" max="max" style="width: 40px">
+                    <br><br>
+                </form>
+            
             </section>
 
         </main>
