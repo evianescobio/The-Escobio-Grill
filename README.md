@@ -23,8 +23,8 @@ A functional form where users can:
 
 🧩 Technologies Used
 
-HTML – for structure and semantic elements
-Images – stored locally inside the images/ folder
+ * HTML: for structure and semantic elements
+ * Images: stored locally inside the images/ folder
 
 🚧 Work in Progress
 
@@ -36,7 +36,6 @@ Upcoming additions include:
 
 💡 How to View
 
-Clone or download the repository
-Open restaurant_menu.html in your browser
-
-Explore the menu and form
+1. Clone or download the repository
+2. Open restaurant_menu.html in your browser
+3. Explore the menu and form
