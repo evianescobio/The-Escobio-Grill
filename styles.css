@@ -38,7 +38,14 @@ main, header, footer, section, article {
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-    
+}
+
+p {
+    font-size: 1.0em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #f9f2d9;
+    font-weight: bold;
 
 }
 
@@ -65,11 +72,14 @@ a {
     width: fit-content;
     display: block;
     margin: 10px 0;
+    font-size: 150%;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: white;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transform: scale(1.10);
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 h1 {
@@ -117,6 +127,14 @@ p {
     margin-bottom: 15px;
 }
 
+#order > label {
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    width: 180px;
+    color: #f9f2d9;
+}
+
 input, textarea, select, button {
     background-color: #4a4a4a;  
     color: white;
@@ -137,5 +155,5 @@ footer > p {
     text-align: center;
     color: white;
     font-family: Century Gothic, sans-serif;
+    font-size: 1.2em;
 }
-
