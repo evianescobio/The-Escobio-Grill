@@ -9,14 +9,19 @@
         <!-- Name of the Restaurant(The Escobio Grill) with an image and a navigation panel (Menu and Order Form). -->
         <header>
             <figure>
-                <img id="header-img" src="images/The Escobio Grill image.png" alt="The Escobio Grill image" width="1350"> 
+                <img id="header-img" src="images/logo/The Escobio Grill image.png" alt="The Escobio Grill image"> 
             </figure>
             <br><br>
             <h1>The Escobio Grill</h1>
             <nav>
                 <ul>
-                    <li><a href="#menu">Menu</a></li>
-                    <li><a href="#order-form">Order Form</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <ul class="submenu">
+                        <li><a href="#dishes">Dishes</a></li>
+                        <li><a href="#sides">Sides</a></li>
+                        <li><a href="#drinks">Drinks</a></li>
+                    </ul>
+                    <li><a href="#order-form">ORDER FORM</a></li>
                 </ul>
             </nav>
         </header>
@@ -24,11 +29,14 @@
         <main>
             <!-- This sections is for the Menu -->
             <section id="menu">
-                <h2>Menu</h2>
+                <h1>Menu</h1>
+                <h2>Our Delicious Dishes</h2>
+                <section id="dishes">
+
                <!-- The Escobio Burguer -->
                 <article>
                     <figure>
-                        <img src="images/Escobio Burguer.png" alt="The Escobio Burguer" width="600">
+                        <img src="images/Dishes/Escobio Burguer.png" alt="The Escobio Burguer">
                         <figcaption>
                             <h3><b>The Escobio Burguer: <i>$5.99</i></b></h3>
                             <p><i>Juicy 1/3 lb beef, cheddar, grilled onions, brioche bun.</i></p>
@@ -40,7 +48,7 @@
                 <!-- The Escobio Citrus Grilled Chicken -->
                 <article>
                     <figure>
-                        <img src="images/Citrus Grilled Chicken.png" alt="Citrus Grilled Chicken" width="600">
+                        <img src="images/Dishes/Citrus Grilled Chicken.png" alt="Citrus Grilled Chicken">
                         <figcaption>
                             <h3><b>Citrus Grilled Chicken: <i>$10.99</i></b></h3>
                             <p><i>Marinated chicken breast, herbs, lemon glaze.</i></p>
@@ -52,7 +60,7 @@
                 <!-- The Escobio Veggie Fire Bowl -->
                 <article>
                     <figure>
-                        <img src="images/Veggie Fire Bowl.png" alt="Veggie Fire Bowl" width="600">
+                        <img src="images/Dishes/Veggie Fire Bowl.png" alt="Veggie Fire Bowl">
                         <figcaption>
                             <h3><b>Veggie Fire Bowl: <i>$8.99</i></b></h3>
                             <p><i>Charred veggies, cilantro rice, spicy crema.</i></p>
@@ -60,6 +68,72 @@
                       </figure>
                       <br><br><br>
                 </article>
+            </section>
+
+            <!-- Section for Sides -->
+            <section id="sides">
+                <h2>Sides</h2>
+
+                <!-- French Fries -->
+                <article>
+                    <figure>
+                        <img src="images/Sides/Fries.png" alt="French Fries">
+                        <figcaption>
+                            <h3><b>French Fries: <i>$2.99</i></b></h3>
+                            <p><i>Crispy golden fries with sea salt.</i></p>
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <!-- Ceasar Salad -->
+                <article>
+                    <figure>
+                        <img src="images/Sides/Ceasar Salad.png" alt="Ceasar Salad">
+                        <figcaption>
+                            <h3><b>Ceasar Salad: <i>$3.99</i></b></h3>
+                            <p><i>Crisp romaine, croutons, Caesar dressing.</i></p>
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <!-- Cilantro Rice -->
+                 <article>
+                    <figure>
+                        <img src="images/Sides/Cilantro Rice.png" alt="Cilantro Rice">
+                        <figcaption>
+                            <h3><b>Cilantro Rice: <i>$2.99</i></b></h3>
+                            <p><i>Herbed rice with fresh cilantro.</i></p>
+                        </figcaption>
+                    </figure>
+                 </article>
+            </section>
+
+            <!-- Section for Drinks -->
+             <section id="drinks">
+                <h2>Drinks</h2>
+
+                <!-- Soft Drinks -->
+                <article>
+                    <figure>
+                        <img src="images/Drinks/Soft Drink.png" alt="Soft Drinks">
+                        <figcaption>
+                            <h3><b>Soft Drinks: <i>$1.99</i></b></h3>
+                            <p><i>Escobio Cola, Escobio Lemonade, Escobio Orange Soda.</i></p>
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <!-- Hot Drinks -->
+                <article>
+                    <figure>
+                        <img src="images/Drinks/Hot Drink.png" alt="Hot Drinks">
+                        <figcaption>
+                            <h3><b>Hot Drinks: <i>$1.99 - $2.99</i></b></h3>
+                            <p><i>Expresso, Escobio Hot Chocolate, Escobiopuccino.</i></p>
+                        </figcaption>
+                    </figure>
+                </article>
+
             </section>
 
             <!-- Section for "Place Your Order" -->
