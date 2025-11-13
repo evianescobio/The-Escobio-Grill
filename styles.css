@@ -22,8 +22,10 @@ main, header, footer, section, article {
 }
 
 #header-img {
-    width: 100%;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
     border-radius: 10px;
 }
 
@@ -57,13 +59,15 @@ p {
 }
 
 img {
+    width: auto;
     max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+    height: 100vh;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 50px;
     display: block;
     margin-right: auto;
     margin-left: auto;
-    opacity: 0.9;
     
 }
 
