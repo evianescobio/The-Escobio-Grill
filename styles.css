@@ -21,19 +21,6 @@ main, header, footer, section, article {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-#header-img {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 10px;
-}
-
-#header-img:hover {
-    transform: scale(1.05);
-    transition: transform 0.5s ease;
-}
-
 #menu {
     background-color: #4a4a4a;  
     padding: 15px;
@@ -58,20 +45,43 @@ p {
 
 }
 
-img {
-    width: auto;
-    max-width: 100%;
+#header-img {
+    width: 100vw;         
     height: 100vh;
-    object-fit: contain;
+    max-height: 90vh;
+    object-fit: cover;       
     object-position: center;
-    border-radius: 50px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    
+    border-radius: 15%;
 }
 
-img:hover {
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+}
+
+#dishes img {
+    max-width: 80%;
+    height: auto;
+}
+
+#sides img {
+    max-width: 70%;
+    height: 60%;
+}
+
+#drinks img {
+    max-width: 45%;
+    height: auto;
+}
+
+
+#dishes img:hover,
+#sides img:hover,
+#drinks img:hover {
     transform: scale(1.05);
     transition: transform 0.5s ease;
     opacity: 1;
@@ -137,7 +147,7 @@ h3 {
 }
 
 h4, h5, h6 {
-    color: #ffcc00;
+    color: #ffe88a;
     text-shadow: 1px 1px 2px #000000;
 }
 
@@ -148,10 +158,16 @@ p {
 
 #order > label {
     display: inline-block;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
     margin-right: 8px;
     width: 180px;
     color: #f9f2d9;
+}
+
+.drink-option {
+    display: inline-block;
+    margin: auto;
+    width: 100%;
 }
 
 input, textarea, select, button {
