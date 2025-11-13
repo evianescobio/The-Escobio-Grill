@@ -1,5 +1,5 @@
 # 🍔 The Escobio Grill  
-[Escobio Grill Preview](images/Logo/The%20Escobio%20Grill%20image.png)
+![The Escobio Grill](images/Logo/The%20Escobio%20Grill%20image.png)
 
 **The Escobio Grill** is a simple restaurant webpage built using **HTML** and **CSS**, designed to showcase a fictional grill’s menu and order form in a clean, modern dark-gray theme that highlights the food images beautifully.
 
