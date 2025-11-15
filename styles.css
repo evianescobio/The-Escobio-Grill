@@ -11,7 +11,7 @@ body {
     height: auto;
 }
 
-main, header, footer, section, article {
+main, footer, section, article {
     background-color: #3a3a3a;  
     border-radius: 10px;
     padding: 20px;
@@ -19,6 +19,15 @@ main, header, footer, section, article {
     width: 90%;
     height: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    background-color: #2e2e2e;  
+    box-shadow: none;
+    border-radius: none;
 }
 
 #menu {
@@ -46,12 +55,11 @@ p {
 }
 
 #header-img {
-    width: 100vw;         
-    height: 100vh;
-    max-height: 90vh;
-    object-fit: cover;       
-    object-position: center;
-    border-radius: 15%;
+    width: 100%;
+    height: auto;      
+    display: block;
+    border-radius: 50px;  
+    margin: 0 auto;
 }
 
 img {
@@ -159,8 +167,8 @@ p {
 #order > label {
     display: inline-block;
     margin-bottom: 20px;
-    margin-right: 8px;
-    width: 180px;
+    margin-right: 20px;
+    width: auto;
     color: #f9f2d9;
 }
 
